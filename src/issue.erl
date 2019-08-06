@@ -22,7 +22,7 @@ make_calls_test() ->
     Method = "GET",
     Headers = [],
     Body = [],
-    NumOfReqs = 50,
+    NumOfReqs = 1,
 
     %% When
     Codes = [begin
